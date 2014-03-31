@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -38129,97 +38129,6 @@ Simple 6 pin RJ11 jack. Commonly found on CAT3 devices and Microchip programmers
 <connect gate="-A" pin="97" pad="97"/>
 <connect gate="-A" pin="98" pad="98"/>
 <connect gate="-A" pin="99" pad="99"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="UC-DELFINO28335">
-<gates>
-<gate name="G$1" symbol="UC-DELFINO28335" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIMM100">
-<connects>
-<connect gate="G$1" pin="5V" pad="77 82 87 92 96"/>
-<connect gate="G$1" pin="ADC-A0" pad="57"/>
-<connect gate="G$1" pin="ADC-A1" pad="59"/>
-<connect gate="G$1" pin="ADC-A2" pad="61"/>
-<connect gate="G$1" pin="ADC-A3" pad="63"/>
-<connect gate="G$1" pin="ADC-A4" pad="65"/>
-<connect gate="G$1" pin="ADC-A5" pad="67"/>
-<connect gate="G$1" pin="ADC-A6" pad="69"/>
-<connect gate="G$1" pin="ADC-A7" pad="71"/>
-<connect gate="G$1" pin="ADC-B0" pad="7"/>
-<connect gate="G$1" pin="ADC-B1" pad="9"/>
-<connect gate="G$1" pin="ADC-B2" pad="11"/>
-<connect gate="G$1" pin="ADC-B3" pad="13"/>
-<connect gate="G$1" pin="ADC-B4" pad="15"/>
-<connect gate="G$1" pin="ADC-B5" pad="17"/>
-<connect gate="G$1" pin="ADC-B6" pad="19"/>
-<connect gate="G$1" pin="ADC-B7" pad="21"/>
-<connect gate="G$1" pin="AGND" pad="8 10 12 14 58 60 62 64"/>
-<connect gate="G$1" pin="EMU0" pad="100"/>
-<connect gate="G$1" pin="EMU1" pad="50"/>
-<connect gate="G$1" pin="GND" pad="27 37 47"/>
-<connect gate="G$1" pin="GND-ISO" pad="6 56"/>
-<connect gate="G$1" pin="GPIO-00" pad="23"/>
-<connect gate="G$1" pin="GPIO-01" pad="73"/>
-<connect gate="G$1" pin="GPIO-02" pad="24"/>
-<connect gate="G$1" pin="GPIO-03" pad="74"/>
-<connect gate="G$1" pin="GPIO-04" pad="25"/>
-<connect gate="G$1" pin="GPIO-05" pad="75"/>
-<connect gate="G$1" pin="GPIO-06" pad="26"/>
-<connect gate="G$1" pin="GPIO-07" pad="76"/>
-<connect gate="G$1" pin="GPIO-08" pad="28"/>
-<connect gate="G$1" pin="GPIO-09" pad="78"/>
-<connect gate="G$1" pin="GPIO-10" pad="29"/>
-<connect gate="G$1" pin="GPIO-11" pad="79"/>
-<connect gate="G$1" pin="GPIO-12" pad="33"/>
-<connect gate="G$1" pin="GPIO-13" pad="83"/>
-<connect gate="G$1" pin="GPIO-14" pad="84"/>
-<connect gate="G$1" pin="GPIO-15" pad="34"/>
-<connect gate="G$1" pin="GPIO-16" pad="38"/>
-<connect gate="G$1" pin="GPIO-17" pad="88"/>
-<connect gate="G$1" pin="GPIO-18" pad="39"/>
-<connect gate="G$1" pin="GPIO-19" pad="89"/>
-<connect gate="G$1" pin="GPIO-20" pad="40"/>
-<connect gate="G$1" pin="GPIO-21" pad="90"/>
-<connect gate="G$1" pin="GPIO-22" pad="41"/>
-<connect gate="G$1" pin="GPIO-23" pad="91"/>
-<connect gate="G$1" pin="GPIO-24" pad="35"/>
-<connect gate="G$1" pin="GPIO-25" pad="85"/>
-<connect gate="G$1" pin="GPIO-26" pad="36"/>
-<connect gate="G$1" pin="GPIO-27" pad="86"/>
-<connect gate="G$1" pin="GPIO-28" pad="43"/>
-<connect gate="G$1" pin="GPIO-29" pad="93"/>
-<connect gate="G$1" pin="GPIO-30" pad="44"/>
-<connect gate="G$1" pin="GPIO-31" pad="94"/>
-<connect gate="G$1" pin="GPIO-32" pad="45"/>
-<connect gate="G$1" pin="GPIO-33" pad="95"/>
-<connect gate="G$1" pin="GPIO-34" pad="46"/>
-<connect gate="G$1" pin="GPIO-48" pad="30"/>
-<connect gate="G$1" pin="GPIO-49" pad="80"/>
-<connect gate="G$1" pin="GPIO-58" pad="18"/>
-<connect gate="G$1" pin="GPIO-59" pad="68"/>
-<connect gate="G$1" pin="GPIO-60" pad="20"/>
-<connect gate="G$1" pin="GPIO-61" pad="70"/>
-<connect gate="G$1" pin="GPIO-62" pad="22"/>
-<connect gate="G$1" pin="GPIO-63" pad="72"/>
-<connect gate="G$1" pin="GPIO-84" pad="31"/>
-<connect gate="G$1" pin="GPIO-85" pad="81"/>
-<connect gate="G$1" pin="GPIO-86" pad="32"/>
-<connect gate="G$1" pin="GPIO-87" pad="42"/>
-<connect gate="G$1" pin="RX-ISO" pad="2"/>
-<connect gate="G$1" pin="TCK" pad="48"/>
-<connect gate="G$1" pin="TDI" pad="97"/>
-<connect gate="G$1" pin="TDO" pad="98"/>
-<connect gate="G$1" pin="TMS" pad="49"/>
-<connect gate="G$1" pin="TRSTN" pad="99"/>
-<connect gate="G$1" pin="TX-ISO" pad="52"/>
-<connect gate="G$1" pin="V33-ISO" pad="1 51"/>
 </connects>
 <technologies>
 <technology name=""/>
